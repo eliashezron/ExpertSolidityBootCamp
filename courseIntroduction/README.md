@@ -23,3 +23,13 @@
 - We could also include a chainId to prevent the transaction being replayed on a different chain.
 
 5. In a contract, How do we know who called a view function?
+
+- by return the address of msg.sender from the global variable
+  example:
+
+````
+function getCaller() public view returns (address){
+      return msg.sender;
+  }
+  ```
+````
