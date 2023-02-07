@@ -18,8 +18,8 @@
 4. What is a relay attack? Which 2 pieces of information can prevent it?
 
 - A replay attack is a valid data transmission that is maliciously or fraudulently repeated or delayed forexample taking a transaction on one blockchain, and maliciously or fraudulently repeating it on another blockchain.
-  > we could guard against replay attacks by including a nonce in the transaction data, which is a number that is incremented for each transaction sent from an account.
-  > We could also include a chainId to prevent the transaction being replayed on a different chain.
-  > Read More [here](https://ethereum.stackexchange.com/questions/26/what-is-a-replay-attack)
+  Read More [here](https://ethereum.stackexchange.com/questions/26/what-is-a-replay-attack)
+- we could guard against replay attacks by including a nonce in the transaction data, which is a number that is incremented for each transaction sent from an account.
+- We could also include a chainId to prevent the transaction being replayed on a different chain.
 
 5. In a contract, How do we know who called a view function?
