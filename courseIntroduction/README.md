@@ -25,7 +25,6 @@
 5. In a contract, How do we know who called a view function?
 
 - by return the address of msg.sender from the global variable
-  example:
 
 ````
 function getCaller() public view returns (address){
