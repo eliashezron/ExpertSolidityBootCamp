@@ -26,9 +26,8 @@
 
 - return the address of msg.sender from the global variable
 
-````
+```
 function getCaller() public view returns (address){
       return msg.sender;
   }
-  ```
-````
+```
